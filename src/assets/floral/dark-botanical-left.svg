@@ -1,0 +1,309 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 700" fill="none">
+  <defs>
+    <!-- Dark Floral Watercolor Gradients -->
+    <!-- Stems -->
+    <linearGradient id="dl-stem" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d3d4d" />
+      <stop offset="50%" stop-color="#415569" />
+      <stop offset="100%" stop-color="#344657" />
+    </linearGradient>
+
+    <!-- Foliage Gradients -->
+    <linearGradient id="dl-leaf-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a4535" />
+      <stop offset="60%" stop-color="#3b624b" />
+      <stop offset="100%" stop-color="#4c7a5f" />
+    </linearGradient>
+    <linearGradient id="dl-leaf-med" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#365843" />
+      <stop offset="60%" stop-color="#4e7d61" />
+      <stop offset="100%" stop-color="#699e7e" />
+    </linearGradient>
+    <linearGradient id="dl-leaf-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#477359" />
+      <stop offset="50%" stop-color="#639978" />
+      <stop offset="100%" stop-color="#84b897" />
+    </linearGradient>
+
+    <!-- Petal Gradients (Layered Watercolor Dusty Rose & Blush) -->
+    <radialGradient id="dl-petal-base" cx="45%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#7a3343" />
+      <stop offset="45%" stop-color="#9a485b" />
+      <stop offset="80%" stop-color="#ba6679" />
+      <stop offset="100%" stop-color="#ce7d8e" />
+    </radialGradient>
+    <radialGradient id="dl-petal-mid" cx="40%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#964356" />
+      <stop offset="50%" stop-color="#b86174" />
+      <stop offset="85%" stop-color="#d48092" />
+      <stop offset="100%" stop-color="#e89eac" />
+    </radialGradient>
+    <radialGradient id="dl-petal-soft" cx="35%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#ab5568" />
+      <stop offset="45%" stop-color="#c97486" />
+      <stop offset="80%" stop-color="#e295a5" />
+      <stop offset="100%" stop-color="#f5bac6" />
+    </radialGradient>
+    <radialGradient id="dl-petal-inner" cx="30%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#bf6b7d" />
+      <stop offset="50%" stop-color="#dc8d9d" />
+      <stop offset="85%" stop-color="#f2adbc" />
+      <stop offset="100%" stop-color="#fce0e6" />
+    </radialGradient>
+    <radialGradient id="dl-petal-ivory" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#c08592" />
+      <stop offset="50%" stop-color="#deb4be" />
+      <stop offset="85%" stop-color="#f4dbe1" />
+      <stop offset="100%" stop-color="#fdf4f6" />
+    </radialGradient>
+
+    <!-- Stamen / Center Gold -->
+    <radialGradient id="dl-stamen" cx="45%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#7a4212" />
+      <stop offset="35%" stop-color="#b66e1e" />
+      <stop offset="70%" stop-color="#e6a438" />
+      <stop offset="100%" stop-color="#f9d16f" />
+    </radialGradient>
+  </defs>
+
+  <!-- Left Cascading Botanical Branch & Flowers -->
+  <g opacity="0.88">
+    <!-- Main graceful curving woody branches -->
+    <path d="M-10,90 Q70,140 110,210 T160,310 Q145,410 100,500 T30,640" 
+          stroke="url(#dl-stem)" stroke-width="3" stroke-linecap="round" fill="none" />
+    <!-- Secondary twigs -->
+    <path d="M75,150 Q120,130 160,110 T220,105" 
+          stroke="url(#dl-stem)" stroke-width="1.8" stroke-linecap="round" fill="none" />
+    <path d="M125,240 Q180,230 230,245" 
+          stroke="url(#dl-stem)" stroke-width="1.6" stroke-linecap="round" fill="none" />
+    <path d="M140,350 Q190,380 235,395 T275,430" 
+          stroke="url(#dl-stem)" stroke-width="1.6" stroke-linecap="round" fill="none" />
+    <path d="M100,450 Q150,480 180,520 T215,570" 
+          stroke="url(#dl-stem)" stroke-width="1.5" stroke-linecap="round" fill="none" />
+    <path d="M65,540 Q110,580 145,630" 
+          stroke="url(#dl-stem)" stroke-width="1.4" stroke-linecap="round" fill="none" />
+
+    <!-- ========================================== -->
+    <!-- REALISTIC BOTANICAL LEAVES WITH VEINS -->
+    <!-- ========================================== -->
+
+    <!-- Leaf 1 (Top Left) -->
+    <g transform="translate(45, 110) rotate(-25)">
+      <path d="M0,0 C20,-25 55,-30 75,-15 C90,0 75,30 45,28 C20,25 5,12 0,0 Z" fill="url(#dl-leaf-dark)" opacity="0.9" />
+      <path d="M0,0 Q40,-2 75,-15" stroke="#1c3325" stroke-width="1.2" stroke-linecap="round" fill="none" />
+      <path d="M25,-2 Q32,-14 42,-18 M45,-6 Q54,-15 62,-16 M25,-1 Q30,12 40,18 M45,-4 Q52,10 60,15" stroke="#223d2d" stroke-width="0.8" fill="none" />
+    </g>
+
+    <!-- Leaf 2 (Upper branch right) -->
+    <g transform="translate(145, 115) rotate(15)">
+      <path d="M0,0 C25,-18 60,-15 78,5 C85,22 65,35 40,30 C15,22 5,10 0,0 Z" fill="url(#dl-leaf-med)" opacity="0.85" />
+      <path d="M0,0 Q45,8 78,5" stroke="#223d2d" stroke-width="1.1" stroke-linecap="round" fill="none" />
+      <path d="M28,4 Q35,-6 48,-8 M50,6 Q58,-3 68,-3 M28,5 Q34,18 45,22 M50,7 Q58,16 66,18" stroke="#2d4d3a" stroke-width="0.8" fill="none" />
+    </g>
+
+    <!-- Leaf 3 (Twig tip eucalyptus) -->
+    <g transform="translate(195, 102) rotate(35)">
+      <path d="M0,0 C18,-15 45,-12 58,4 C65,18 48,28 30,22 C12,16 3,8 0,0 Z" fill="url(#dl-leaf-light)" opacity="0.8" />
+      <path d="M0,0 Q32,5 58,4" stroke="#2d4d3a" stroke-width="0.9" fill="none" />
+    </g>
+
+    <!-- Leaf 4 (Upper middle) -->
+    <g transform="translate(90, 185) rotate(-10)">
+      <path d="M0,0 C25,-20 65,-22 88,-5 C98,12 80,32 50,28 C22,22 6,10 0,0 Z" fill="url(#dl-leaf-dark)" opacity="0.92" />
+      <path d="M0,0 Q50,2 88,-5" stroke="#1c3325" stroke-width="1.3" fill="none" />
+      <path d="M30,0 Q38,-12 50,-15 M55,0 Q64,-10 74,-10 M30,1 Q36,14 48,18 M55,0 Q63,12 72,15" stroke="#223d2d" stroke-width="0.8" fill="none" />
+    </g>
+
+    <!-- Leaf 5 (Behind main flower) -->
+    <g transform="translate(110, 260) rotate(50)">
+      <path d="M0,0 C30,-22 75,-18 95,8 C105,28 82,45 52,38 C22,30 7,12 0,0 Z" fill="url(#dl-leaf-med)" opacity="0.88" />
+      <path d="M0,0 Q55,10 95,8" stroke="#223d2d" stroke-width="1.2" fill="none" />
+      <path d="M35,6 Q42,-6 55,-9 M60,8 Q68,-2 78,-2 M35,7 Q42,22 55,27 M60,9 Q68,22 78,25" stroke="#2d4d3a" stroke-width="0.8" fill="none" />
+    </g>
+
+    <!-- Leaf 6 (Right of main flower) -->
+    <g transform="translate(205, 275) rotate(-15)">
+      <path d="M0,0 C22,-18 55,-18 72,-2 C82,12 68,28 42,25 C18,20 5,8 0,0 Z" fill="url(#dl-leaf-light)" opacity="0.85" />
+      <path d="M0,0 Q40,3 72,-2" stroke="#223d2d" stroke-width="1" fill="none" />
+      <path d="M25,1 Q32,-10 42,-12 M45,2 Q52,-6 60,-6 M25,2 Q30,14 40,16 M45,2 Q52,12 58,14" stroke="#2d4d3a" stroke-width="0.75" fill="none" />
+    </g>
+
+    <!-- Leaf 7 (Middle branch pointing right) -->
+    <g transform="translate(170, 365) rotate(20)">
+      <path d="M0,0 C28,-20 70,-15 90,10 C98,28 78,42 48,34 C20,25 6,12 0,0 Z" fill="url(#dl-leaf-dark)" opacity="0.9" />
+      <path d="M0,0 Q50,10 90,10" stroke="#1c3325" stroke-width="1.2" fill="none" />
+      <path d="M30,5 Q38,-7 50,-10 M58,8 Q66,-2 76,-2 M30,6 Q36,20 48,24 M58,9 Q65,22 75,25" stroke="#223d2d" stroke-width="0.8" fill="none" />
+    </g>
+
+    <!-- Leaf 8 (Lower branch foliage) -->
+    <g transform="translate(130, 470) rotate(40)">
+      <path d="M0,0 C24,-18 60,-15 78,8 C85,25 68,38 42,32 C18,24 5,10 0,0 Z" fill="url(#dl-leaf-med)" opacity="0.85" />
+      <path d="M0,0 Q45,10 78,8" stroke="#223d2d" stroke-width="1" fill="none" />
+      <path d="M28,6 Q35,-5 46,-7 M50,8 Q58,-1 68,-1 M28,7 Q34,18 44,22 M50,8 Q57,19 66,21" stroke="#2d4d3a" stroke-width="0.75" fill="none" />
+    </g>
+
+    <!-- Leaf 9 (Lower branch tip) -->
+    <g transform="translate(175, 535) rotate(55)">
+      <path d="M0,0 C20,-14 48,-10 60,6 C68,20 52,30 32,24 C14,18 4,8 0,0 Z" fill="url(#dl-leaf-light)" opacity="0.8" />
+      <path d="M0,0 Q35,7 60,6" stroke="#2d4d3a" stroke-width="0.9" fill="none" />
+    </g>
+
+    <!-- Leaf 10 (Bottom cascade) -->
+    <g transform="translate(60, 560) rotate(-10)">
+      <path d="M0,0 C22,-18 58,-18 76,-2 C85,14 70,30 45,26 C18,20 5,8 0,0 Z" fill="url(#dl-leaf-dark)" opacity="0.9" />
+      <path d="M0,0 Q42,3 76,-2" stroke="#1c3325" stroke-width="1.1" fill="none" />
+    </g>
+
+    <!-- Leaf 11 (Bottom tail) -->
+    <g transform="translate(25, 620) rotate(15)">
+      <path d="M0,0 C18,-15 45,-12 58,4 C64,18 48,28 30,22 C12,15 3,8 0,0 Z" fill="url(#dl-leaf-med)" opacity="0.82" />
+      <path d="M0,0 Q32,5 58,4" stroke="#223d2d" stroke-width="0.9" fill="none" />
+    </g>
+
+    <!-- ========================================== -->
+    <!-- REALISTIC LAYERED WATERCOLOR FLOWERS -->
+    <!-- ========================================== -->
+
+    <!-- 1. UPPER BLOSSOM (x=115, y=145) - Half-open Dusty Rose Rosebud -->
+    <g transform="translate(115, 145)">
+      <!-- Outer Sepals -->
+      <path d="M-12,8 C-20,25 -5,40 -2,48 C2,38 12,28 6,12 Z" fill="#2d4d3a" opacity="0.85" />
+      <path d="M12,10 C22,26 15,42 8,46 C4,36 -2,26 4,12 Z" fill="#3b624b" opacity="0.8" />
+      <!-- Outer Petals -->
+      <path d="M-28,-5 C-35,-22 -15,-40 5,-42 C20,-42 32,-28 26,-8 C18,12 -12,18 -28,-5 Z" fill="url(#dl-petal-base)" opacity="0.9" />
+      <path d="M-15,-28 C-10,-48 18,-52 35,-35 C45,-20 38,5 18,12 C-2,15 -18,-5 -15,-28 Z" fill="url(#dl-petal-mid)" opacity="0.92" />
+      <!-- Inner Cup Petals -->
+      <path d="M-12,-15 C-18,-30 0,-42 16,-38 C28,-32 25,-12 14,-2 C2,8 -8,0 -12,-15 Z" fill="url(#dl-petal-soft)" opacity="0.95" />
+      <path d="M-4,-18 C-8,-28 8,-35 18,-30 C24,-24 20,-12 10,-5 C0,0 -2,-8 -4,-18 Z" fill="url(#dl-petal-inner)" />
+      <!-- Golden stamen peeking through -->
+      <circle cx="8" cy="-18" r="4.5" fill="url(#dl-stamen)" />
+    </g>
+
+    <!-- 2. MAIN GRAND BLOOM (x=175, y=285) - Masterpiece Layered Rose/Peony -->
+    <g transform="translate(175, 285)">
+      <!-- Outer Layer Petals (Layer 1 - Deepest Watercolor Shadow) -->
+      <path d="M-62,-15 C-72,-45 -45,-75 -15,-72 C12,-70 25,-48 10,-22 C-5,-2 -48,8 -62,-15 Z" fill="url(#dl-petal-base)" opacity="0.88" />
+      <path d="M-22,-68 C-5,-92 35,-88 58,-62 C75,-40 62,-10 35,-12 C10,-15 -12,-48 -22,-68 Z" fill="url(#dl-petal-base)" opacity="0.86" />
+      <path d="M38,-58 C68,-72 95,-42 92,-10 C88,20 62,38 32,22 C10,10 18,-38 38,-58 Z" fill="url(#dl-petal-base)" opacity="0.88" />
+      <path d="M52,-8 C85,8 88,48 65,72 C42,90 10,75 -2,48 C-15,20 20,-18 52,-8 Z" fill="url(#dl-petal-base)" opacity="0.9" />
+      <path d="M12,45 C-10,78 -48,78 -70,52 C-88,28 -68,-5 -40,5 C-15,12 2,28 12,45 Z" fill="url(#dl-petal-base)" opacity="0.88" />
+      <path d="M-60,32 C-88,10 -85,-28 -62,-50 C-42,-68 -15,-45 -22,-18 C-28,8 -40,45 -60,32 Z" fill="url(#dl-petal-base)" opacity="0.86" />
+
+      <!-- Intermediate Layer Petals (Layer 2 - Rich Dusty Rose & Blush) -->
+      <path d="M-45,-12 C-55,-35 -32,-58 -8,-55 C12,-52 20,-35 8,-15 C-5,2 -35,8 -45,-12 Z" fill="url(#dl-petal-mid)" opacity="0.93" />
+      <path d="M-15,-52 C0,-70 32,-68 48,-48 C60,-30 50,-8 28,-10 C8,-12 -8,-38 -15,-52 Z" fill="url(#dl-petal-mid)" opacity="0.92" />
+      <path d="M28,-42 C50,-52 70,-28 68,-2 C65,20 45,30 22,18 C6,8 12,-28 28,-42 Z" fill="url(#dl-petal-mid)" opacity="0.93" />
+      <path d="M38,-4 C62,8 65,38 48,56 C30,70 5,58 -2,38 C-10,16 16,-12 38,-4 Z" fill="url(#dl-petal-mid)" opacity="0.94" />
+      <path d="M6,32 C-8,58 -38,58 -52,38 C-65,20 -50,-4 -28,4 C-8,10 0,18 6,32 Z" fill="url(#dl-petal-mid)" opacity="0.92" />
+      <path d="M-45,22 C-65,6 -62,-22 -45,-38 C-30,-50 -10,-32 -16,-12 C-20,6 -28,32 -45,22 Z" fill="url(#dl-petal-mid)" opacity="0.93" />
+
+      <!-- Inner Layer Petals (Layer 3 - Luminous Soft Blush & Petal Veins) -->
+      <path d="M-30,-8 C-38,-24 -22,-40 -5,-38 C10,-35 15,-22 5,-8 C-4,4 -24,8 -30,-8 Z" fill="url(#dl-petal-soft)" opacity="0.96" />
+      <path d="M-8,-35 C2,-48 24,-46 35,-32 C42,-20 35,-5 20,-6 C5,-8 -4,-25 -8,-35 Z" fill="url(#dl-petal-soft)" opacity="0.95" />
+      <path d="M18,-28 C34,-36 48,-20 46,-2 C44,14 30,22 15,12 C4,5 8,-18 18,-28 Z" fill="url(#dl-petal-soft)" opacity="0.96" />
+      <path d="M25,-2 C42,6 44,28 32,40 C20,50 2,40 -2,26 C-8,12 10,-8 25,-2 Z" fill="url(#dl-petal-soft)" opacity="0.96" />
+      <path d="M2,22 C-6,40 -26,40 -36,26 C-45,14 -35,-2 -18,2 C-5,6 0,12 2,22 Z" fill="url(#dl-petal-soft)" opacity="0.95" />
+      <path d="M-30,14 C-44,4 -42,-15 -30,-26 C-20,-35 -5,-22 -10,-8 C-14,4 -18,20 -30,14 Z" fill="url(#dl-petal-soft)" opacity="0.96" />
+
+      <!-- Core Petal Swirl (Layer 4 - Ivory Blush Petal Tips) -->
+      <path d="M-18,-5 C-24,-16 -12,-28 0,-26 C12,-24 16,-12 8,-2 C0,8 -12,5 -18,-5 Z" fill="url(#dl-petal-inner)" />
+      <path d="M0,-24 C10,-32 24,-24 22,-12 C20,0 8,8 -2,2 C-8,-4 -5,-18 0,-24 Z" fill="url(#dl-petal-inner)" />
+      <path d="M14,-8 C25,2 22,18 12,22 C0,25 -8,12 -4,4 C0,-4 6,-14 14,-8 Z" fill="url(#dl-petal-inner)" />
+      <path d="M-8,14 C-18,18 -24,6 -18,-4 C-12,-12 0,-10 2,0 C4,10 -2,12 -8,14 Z" fill="url(#dl-petal-ivory)" />
+      <path d="M-8,-8 C-12,-14 4,-18 12,-10 C18,-2 10,8 2,4 C-4,0 -6,-4 -8,-8 Z" fill="url(#dl-petal-ivory)" />
+
+      <!-- Center Stamen Core with Filaments & Golden Pollen Anthers -->
+      <circle cx="2" cy="-2" r="11" fill="url(#dl-stamen)" opacity="0.95" />
+      <!-- Radiating fine stamen filaments -->
+      <path d="M-5,-4 L-12,-9 M0,-6 L1,-14 M6,-4 L13,-9 M7,0 L15,1 M5,5 L11,11 M-1,6 L-1,14 M-6,4 L-12,8 M-7,-1 L-15,-1" 
+            stroke="#e6a438" stroke-width="1.2" stroke-linecap="round" />
+      <!-- Golden pollen anther dots -->
+      <circle cx="-13" cy="-10" r="2.2" fill="#fce598" />
+      <circle cx="1" cy="-15" r="2.2" fill="#fce598" />
+      <circle cx="14" cy="-10" r="2.2" fill="#fce598" />
+      <circle cx="16" cy="1" r="2.2" fill="#fce598" />
+      <circle cx="12" cy="12" r="2.2" fill="#fce598" />
+      <circle cx="-1" cy="15" r="2.2" fill="#fce598" />
+      <circle cx="-13" cy="9" r="2.2" fill="#fce598" />
+      <circle cx="-16" cy="-1" r="2.2" fill="#fce598" />
+      <circle cx="2" cy="-2" r="4.5" fill="#7a3f10" opacity="0.9" />
+      <circle cx="1" cy="-2" r="2.5" fill="#f7d070" />
+    </g>
+
+    <!-- 3. LOWER MEDIUM BLOSSOM (x=105, y=490) - Open Blush Flower -->
+    <g transform="translate(105, 490) rotate(15)">
+      <!-- 5 Layered Petals -->
+      <path d="M-30,-5 C-38,-22 -18,-38 2,-34 C18,-30 20,-12 10,4 C0,18 -20,12 -30,-5 Z" fill="url(#dl-petal-mid)" opacity="0.9" />
+      <path d="M-8,-32 C8,-48 35,-42 45,-20 C52,-2 38,15 18,12 C-2,10 -15,-20 -8,-32 Z" fill="url(#dl-petal-mid)" opacity="0.92" />
+      <path d="M22,-18 C42,-25 56,-2 48,18 C40,36 18,34 5,20 C-6,6 6,-12 22,-18 Z" fill="url(#dl-petal-mid)" opacity="0.9" />
+      <path d="M12,18 C8,38 -15,44 -30,28 C-42,12 -32,-8 -12,-2 C2,2 14,8 12,18 Z" fill="url(#dl-petal-mid)" opacity="0.92" />
+      <path d="M-28,10 C-44,-2 -38,-24 -18,-26 C-2,-28 10,-12 0,4 C-8,16 -18,18 -28,10 Z" fill="url(#dl-petal-mid)" opacity="0.9" />
+      <!-- Inner soft highlights -->
+      <circle cx="2" cy="0" r="15" fill="url(#dl-petal-soft)" opacity="0.85" />
+      <circle cx="2" cy="0" r="9" fill="url(#dl-petal-ivory)" opacity="0.9" />
+      <!-- Stamen Center -->
+      <circle cx="2" cy="0" r="7" fill="url(#dl-stamen)" />
+      <circle cx="-5" cy="-4" r="1.6" fill="#fce598" />
+      <circle cx="6" cy="-5" r="1.6" fill="#fce598" />
+      <circle cx="7" cy="4" r="1.6" fill="#fce598" />
+      <circle cx="-3" cy="6" r="1.6" fill="#fce598" />
+      <circle cx="-6" cy="1" r="1.6" fill="#fce598" />
+      <circle cx="2" cy="0" r="2.8" fill="#7a3f10" />
+    </g>
+
+    <!-- 4. DELICATE BLOSSOM SPRIGS & BUDS (Baby's Breath Style) -->
+    <!-- Sprig 1 at (240, 110) -->
+    <g transform="translate(240, 110)">
+      <path d="M0,0 L15,-8 M0,0 L18,8 M0,0 L25,-2" stroke="url(#dl-stem)" stroke-width="1.1" />
+      <circle cx="16" cy="-9" r="3.5" fill="url(#dl-petal-soft)" />
+      <circle cx="19" cy="9" r="3.8" fill="url(#dl-petal-mid)" />
+      <circle cx="26" cy="-2" r="4.2" fill="url(#dl-petal-ivory)" />
+      <circle cx="26" cy="-2" r="1.5" fill="#f7d070" />
+    </g>
+
+    <!-- Sprig 2 at (245, 245) -->
+    <g transform="translate(245, 245)">
+      <path d="M0,0 L14,-10 M0,0 L16,10 M0,0 L24,0" stroke="url(#dl-stem)" stroke-width="1.1" />
+      <circle cx="15" cy="-11" r="3.6" fill="url(#dl-petal-soft)" />
+      <circle cx="17" cy="11" r="3.4" fill="url(#dl-petal-ivory)" />
+      <circle cx="25" cy="0" r="4.5" fill="url(#dl-petal-mid)" />
+      <circle cx="25" cy="0" r="1.6" fill="#f7d070" />
+    </g>
+
+    <!-- Sprig 3 at (280, 435) -->
+    <g transform="translate(280, 435)">
+      <path d="M0,0 L12,-8 M0,0 L15,6 M0,0 L22,-2" stroke="url(#dl-stem)" stroke-width="1.1" />
+      <circle cx="13" cy="-9" r="3.5" fill="url(#dl-petal-soft)" />
+      <circle cx="16" cy="7" r="3.6" fill="url(#dl-petal-ivory)" />
+      <circle cx="23" cy="-2" r="4.2" fill="url(#dl-petal-mid)" />
+      <circle cx="23" cy="-2" r="1.5" fill="#f7d070" />
+    </g>
+
+    <!-- Sprig 4 at (150, 635) -->
+    <g transform="translate(150, 635)">
+      <path d="M0,0 L12,-6 M0,0 L14,8" stroke="url(#dl-stem)" stroke-width="1.1" />
+      <circle cx="13" cy="-7" r="3.4" fill="url(#dl-petal-soft)" />
+      <circle cx="15" cy="9" r="3.6" fill="url(#dl-petal-mid)" />
+    </g>
+
+    <!-- ========================================== -->
+    <!-- DELICATE FLOATING PETALS (Natural Breeze) -->
+    <!-- ========================================== -->
+    <!-- Petal 1 floating inward -->
+    <g transform="translate(285, 205) rotate(32)">
+      <path d="M0,0 C12,-10 26,-8 32,4 C34,14 22,22 10,18 C-2,14 -4,6 0,0 Z" fill="url(#dl-petal-soft)" opacity="0.82" />
+      <path d="M3,2 Q16,5 30,5" stroke="#ba6679" stroke-width="0.75" opacity="0.6" fill="none" />
+    </g>
+
+    <!-- Petal 2 floating lower -->
+    <g transform="translate(315, 345) rotate(-22)">
+      <path d="M0,0 C10,-12 24,-12 30,0 C34,12 22,20 10,16 C-2,12 -2,6 0,0 Z" fill="url(#dl-petal-mid)" opacity="0.78" />
+      <path d="M3,1 Q15,4 28,1" stroke="#9a485b" stroke-width="0.7" opacity="0.55" fill="none" />
+    </g>
+
+    <!-- Petal 3 floating near bottom -->
+    <g transform="translate(230, 520) rotate(48)">
+      <path d="M0,0 C9,-9 22,-8 28,2 C30,12 20,18 8,15 C-2,12 -3,5 0,0 Z" fill="url(#dl-petal-ivory)" opacity="0.85" />
+    </g>
+  </g>
+</svg>

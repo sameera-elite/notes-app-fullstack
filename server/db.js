@@ -14,9 +14,33 @@ db.exec(`
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     title TEXT NOT NULL,
     content TEXT NOT NULL,
+    category TEXT DEFAULT 'General',
+    tags TEXT DEFAULT '[]',
+    is_pinned INTEGER DEFAULT 0,
+    is_favorite INTEGER DEFAULT 0,
     created_at TEXT NOT NULL,
     updated_at TEXT NOT NULL
   )
 `);
+
+// Safe backward-compatible migration for existing databases
+const tableInfo = db.prepare('PRAGMA table_info(notes)').all();
+const existingColumns = tableInfo.map((col) => col.name);
+
+if (!existingColumns.includes('category')) {
+  db.exec("ALTER TABLE notes ADD COLUMN category TEXT DEFAULT 'General'");
+}
+
+if (!existingColumns.includes('tags')) {
+  db.exec("ALTER TABLE notes ADD COLUMN tags TEXT DEFAULT '[]'");
+}
+
+if (!existingColumns.includes('is_pinned')) {
+  db.exec("ALTER TABLE notes ADD COLUMN is_pinned INTEGER DEFAULT 0");
+}
+
+if (!existingColumns.includes('is_favorite')) {
+  db.exec("ALTER TABLE notes ADD COLUMN is_favorite INTEGER DEFAULT 0");
+}
 
 export default db;
